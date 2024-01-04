@@ -1,0 +1,4 @@
+﻿  Receiver.cpp
+D:\Labs\osi-lab4-2\osi-lab4-2\Receiver.cpp(17,17): warning C4101: si: неиспользованная локальная переменная
+D:\Labs\osi-lab4-2\osi-lab4-2\Receiver.cpp(18,25): warning C4101: pi: неиспользованная локальная переменная
+  osi-lab4-2.vcxproj -> D:\Labs\osi-lab4-2\x64\Debug\osi-lab4-2.exe
