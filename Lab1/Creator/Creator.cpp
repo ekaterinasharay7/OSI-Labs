@@ -1,13 +1,7 @@
 #include <iostream>
 #include <fstream>
 #include "..//osi-laba1-test1/employee.h"
-/*
-что требуют в creator
-получить назв бин файла
-кол-во сотрудников
-в бин зарисать всех сотркдников(еомер, имя, часы работы) 
 
-*/
 
 int main(int argc, char* argv[]) {
 
@@ -24,7 +18,7 @@ int main(int argc, char* argv[]) {
         return 1;
     }
 
-    // Открываем бинарный файл для дальнейшей работы
+    // ГЋГІГЄГ°Г»ГўГ ГҐГ¬ ГЎГЁГ­Г Г°Г­Г»Г© ГґГ Г©Г« Г¤Г«Гї Г¤Г Г«ГјГ­ГҐГ©ГёГҐГ© Г°Г ГЎГ®ГІГ»
     std::ofstream binaryFile(binaryFileName, std::ios::binary);
 
     if (!binaryFile) {
