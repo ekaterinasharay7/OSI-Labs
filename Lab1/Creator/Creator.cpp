@@ -18,7 +18,6 @@ int main(int argc, char* argv[]) {
         return 1;
     }
 
-    // Îòêðûâàåì áèíàðíûé ôàéë äëÿ äàëüíåéøåé ðàáîòû
     std::ofstream binaryFile(binaryFileName, std::ios::binary);
 
     if (!binaryFile) {
