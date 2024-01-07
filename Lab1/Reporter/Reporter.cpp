@@ -22,7 +22,7 @@ int main(int argc, char* argv[]) {
         return 1;
     }
 
-    // Çàïèñûâàåì â îò÷åò
+   
     std::ofstream reportFile(outputReportFile);
 
     if (!reportFile) {
