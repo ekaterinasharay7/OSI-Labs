@@ -1,14 +1,7 @@
 #include <iostream>
 #include <fstream>
 #include "..//osi-laba1-test1/employee.h"
-/*
-что требует reporter
-имя отчкта 
-оплату за час работы
-их + имя бин передает через ком строку
-создаем отчет
 
-*/
 
 
 int main(int argc, char* argv[]) {
@@ -29,7 +22,7 @@ int main(int argc, char* argv[]) {
         return 1;
     }
 
-    // Записываем в отчет
+    // Г‡Г ГЇГЁГ±Г»ГўГ ГҐГ¬ Гў Г®ГІГ·ГҐГІ
     std::ofstream reportFile(outputReportFile);
 
     if (!reportFile) {
@@ -39,7 +32,6 @@ int main(int argc, char* argv[]) {
 
     employee emp;
 
-    // Заголовок отчета
     reportFile << "Report for file: " << inputBinaryFile << " \n";
     reportFile << "Number, Name, Hours Worked, Salary \n";
 
